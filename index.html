@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Javascript Logic Operator kivabe kaj kore (and, nand, or, nor, not)..</h1>
+    <h3>basically binary man gula kivabe serkit a kaj kore seitai dekbo</h3>
+    <table border>
+        
+        <thead>
+            <th>bin value</th>
+            <th>bin value</th>
+            <th>AND</th>
+            <th>NAND</th>
+            <th>OR</th>
+            <th>NOR</th>
+            <th>XOR</th>
+            <th>NOT</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>1</td>
+                <td>0</td>
+                <td>1</td>
+                <td>0</td>
+                <td>value 1 ta hoy > 1 thakle 0 r 0 thakle 1</td>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td>1</td>
+                <td>0</td>
+                <td>1</td>
+                <td>1</td>
+                <td>0</td>
+                <td>1</td>
+                <td>value 1 ta hoy > 1 thakle 0 r 0 thakle 1</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>1</td>
+                <td>1</td>
+                <td>0</td>
+                <td>1</td>
+                <td>value 1 ta hoy > 1 thakle 0 r 0 thakle 1</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+                <td>0</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>value 1 ta hoy > 1 thakle 0 r 0 thakle 1</td>
+            </tr>
+        </tbody>
+
+    </table>
+
+    <h1>Logical operator</h1>
+    <h3>&& / And operator er ketre joto gula logic dea hobe sob gula must be true hote hobe</h3>
+    <h3>|| / Or operator er ketre joto gula logic dea hobe er modde marto ekti true holei true return korbe</h3>
+    <h3>! / not operator er ketre .... !(x = 10).... x = 10 noy  .. aeta jodi true hoy tahole true return korbe .... r na hoy false return korbe</h3>
+<br>
+    <h1>Left Shift</h1>
+    <h3>Left Shift / (<<) er ketre je koyti bad dita chibo, left side theke sei koite bad jabe and positive hole right side a sei koyti 0 bosate hobe.. r negative hole right side a sei koy ti  1 bosate hobe.. ekhon kotha hosse je number er left shift korbo tar binary number ber korar por javascript tar age positive hole 32 bit pojonto 0 dia fill up korbe.. or negative hole 1 dia 32 bit pojonto fill up korbe... then left side theke sei koyti number kete nia right side a 0 or 1 dia fill up korbe</h3>
+    <h2>(10 << 12)<br> ekane 10 er binary number hobe (1010). but javascript er left side a  aro 28 ti 0 boshabe.. then er theke 12 ti 0 kete nia right side a bosabe. Tahole out put ta asbe emon (00001010000000000000) .. Ekhon javascript last er 0000 ke fele dia (1010000000000000) ae number tar decimal number output diba</h2>
+
+    <br>
+    <h1>Right Shift</h1>
+    <h3>Right er rule alternative .. etate sudu right side theke oi koyti number kete left side a positive hole 0 dia fill up korte hobe or negative hole 1 dia fill up korte hobe</h3>
+</body>
+</html>

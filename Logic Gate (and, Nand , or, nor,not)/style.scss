@@ -1,0 +1,20 @@
+body{
+    position: absolute;
+    
+    left: 50%;
+    transform: translateX(-50%);
+}
+table{
+    border: 2px solid red;
+    border-collapse: collapse;
+    width: 700px;
+    text-align: center;
+}
+td,th{
+    padding:10px;
+}
+
+th{
+    background-color: black;
+    color: wheat;
+}
